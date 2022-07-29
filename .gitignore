@@ -1,0 +1,6 @@
+**/script/  
+**/stuff/  
+**/.terraform
+**/*tfstate
+**/*tfstate*
+**/.terraform.lock.*
