@@ -52,7 +52,7 @@ terraform plan
 terraform apply -auto-approve
 ```
 
-#### - Lookup your Environment by aws cli
+#### - Lookup your environment by aws cli
 ```
 aws ec2 describe-vpcs --vpc-ids <you get the id from terraform output> --profile <your awc cli profile>
 ```
