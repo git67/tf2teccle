@@ -1,6 +1,6 @@
 variable "aws_cli_profile" {
   description = "aws profile"
-  default     = "<your aws cli profile>"
+  default     = "devops"
 }
 
 variable "aws_region" {
@@ -10,7 +10,7 @@ variable "aws_region" {
 
 variable "namespace" {
   description = "part of naming schema"
-  default     = "terraform_demo"
+  default     = "teccle"
 }
 variable "cidr_vpc" {
   description = "cidr vpc"
