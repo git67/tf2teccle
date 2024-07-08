@@ -8,9 +8,9 @@
 
 export PATH="/usr/bin:/usr/sbin/:${PATH}"
 
-ELB=${1:-"NONE"}
+ELB=${1:-"$(terraform state show $(terraform state list | grep elb) | grep dns_name | awk '{print $3}'|sed -e 's/\"//g')"}
 PORT=${2:-"8080"}
-PROBE_COUNT=${3:-"50"}
+PROBE_COUNT=${3:-"1"}
 
 _probe_elb()
 {

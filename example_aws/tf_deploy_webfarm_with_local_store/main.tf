@@ -21,7 +21,7 @@ module "stack" {
   subnet_cidrs = ["128.0.1.0/24", "128.0.2.0/24", "128.0.3.0/24"]
   av_zones     = ["eu-central-1a", "eu-central-1b", "eu-central-1c"]
 
-  namespace = "teccle"
+  namespace = "demo-lab"
 
   ec2 = {
     "instance_ami"   = "ami-0a02ee601d742e89f"

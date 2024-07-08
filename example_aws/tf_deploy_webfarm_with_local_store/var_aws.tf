@@ -2,7 +2,7 @@
 variable "profile" {
   type        = string
   description = "profile aws-cli"
-  default     = "devops"
+  default     = "ec3-deploy"
 }
 variable "region" {
   type        = string
