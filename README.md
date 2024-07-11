@@ -28,12 +28,7 @@ aws ec2 describe-regions --profile <your-profile-name>
 git clone --branch main https://github.com/git67/tf4teccle.git 
 ```
 
-###### - Place your profile name into main.tf:
-```
-...
-  default = "<your aws cli profile>"
-...
-```
+###### - Place your profile name into main.tf/variables.tf/...
 
 #### - Initialisation of terraform environment
 ```
