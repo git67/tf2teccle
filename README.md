@@ -1,4 +1,4 @@
-![Terraform Logo](https://www.terraform.io/assets/images/logo-hashicorp-3f10732f.svg)
+![Terraform Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform_Logo.svg/1024px-Terraform_Logo.svg.png?20181016201549)
 
 The examples provided are intended for illustrative simple purposes to facilitate an introductory understanding of Terraform.
 
