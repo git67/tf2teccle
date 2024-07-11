@@ -1,6 +1,6 @@
 variable "aws_cli_profile" {
   description = "aws profile"
-  default     = "ed3-deploy"
+  default     = "ec3-deploy"
 }
 
 variable "aws_region" {
@@ -22,5 +22,5 @@ variable "cidr_subnet" {
 }
 variable "availability_zone" {
   description = "av-zone subnet"
-  default     = "eu-central-1a"
+  default     = "NONE"
 }
